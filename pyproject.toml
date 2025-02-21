@@ -1,0 +1,16 @@
+[project]
+name = "r_provider"
+authors = [{name = "camille-s"}]
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "commitizen"
+]
+
+[project.entry-points."commitizen.provider"]
+r-provider = 'r_provider.r_provider:RProvider'
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
