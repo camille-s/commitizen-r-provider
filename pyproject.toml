@@ -3,18 +3,16 @@ name = "commitizen-r-provider"
 authors = [{ name = "camille-s", email = "camille.seaberry@gmail.com" }]
 version = "0.1.0"
 requires-python = ">=3.11"
-dependencies = [
-    "commitizen"
-]
+dependencies = ["commitizen"]
 readme = "README.md"
 description = "An R provider for commitizen"
+license = "MIT"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
-    "Topic :: Software Development :: Version Control"
+    "Topic :: Software Development :: Version Control",
 ]
 
 [project.entry-points."commitizen.provider"]
